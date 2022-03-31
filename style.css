@@ -80,12 +80,10 @@ button {
       font-size: 20px;
       top: 10px;
   }
-@media only screen and(max-width: 250px) {
-    .search-bar{
-        width: 50%;
-    }
+@media (max-width: 650px) {
+    
     .main-logo{
-        display: flex;
-        justify-content: c;
+        margin-left: 60px;
+        width: 80%;
     }
 }
