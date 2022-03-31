@@ -9,6 +9,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: right;
+    flex-wrap: wrap;
 }
 nav ul{
     display: flex;
@@ -32,13 +33,14 @@ nav ul li a:hover{
 i{
     color: black;
 }
-main{
-    height: 40px;
+main {
+    height: 800px;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}  
 .main-logo {
     width: 50%;
     display: flex;
@@ -86,9 +88,8 @@ button {
       top: 10px;
   }
 @media (max-width: 650px) {
-    
     .main-logo{
-        margin-left: 60px;
-        width: 80%;
+        width: 70%;
+        
     }
 }
