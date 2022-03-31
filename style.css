@@ -39,13 +39,19 @@ main{
     flex-direction: column;
     text-align: center;
 }
-.main-logo{
-    width: 300px;
-    padding: 10px;
-    margin-left: 500px;
-    margin-top: 100px;
-    
-}
+.main-logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22px;
+  }
+  
+  .main-logo img {
+    width: 100%;
+    height: auto;
+  }
+  
 main input{
     margin-top: 10px;
     margin-bottom: 40px;
@@ -60,13 +66,12 @@ button {
     border-radius: 5em;
     display: inline-block;
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(247, 10, 10);
     font-family: Lato;
     font-size: 1.1em;
-    padding: 1rem 1.8rem;
+    padding: 20px 30px;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #0a0a09;
-    margin: 1em;
+    margin: 20px;
   }
   button:hover{
       background-color: rgb(10, 239, 247);
