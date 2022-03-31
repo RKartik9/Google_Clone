@@ -70,7 +70,7 @@ main input{
   width: 70%;
 
 }
-.btn-search{
+.btn-container {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -81,8 +81,7 @@ main input{
 button {
     background-color: rgb(13, 100, 250);
     border-radius: 5em;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     cursor: pointer;
     color: rgb(247, 10, 10);
     font-family: Lato;
@@ -93,7 +92,7 @@ button {
   }
   button:hover{
       background-color: rgb(10, 239, 247);
-      color: rgb(0, 255, 247);
+      color: red;
   }
   button:active {
     position: relative;
@@ -107,14 +106,5 @@ button {
     .main-logo{
         width: 70%;
         
-    }
-    .btn-search{
-        position: relative;
-        width: 200px;
-        display: flex;
-        flex-direction: column;
-    }
-    .fact{
-        padding: 30px;
     }
 }
