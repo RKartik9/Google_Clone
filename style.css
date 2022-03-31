@@ -53,23 +53,30 @@ main {
     width: 100%;
     height: auto;
   }
+  form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
   
 main input{
-    margin-top: 10px;
-    margin-bottom: 40px;
-    height: 100px;
-    width: 700px;
-    border-radius: 80px;
-    padding: 0 300px;
+    padding: 1.1em;
+  margin: 2em;
+  border-radius: 50em;
+  border: 2px solid black;
+  font-size: 17px;
+  width: 70%;
 
 }
 button {
-    background-color: var(--accent-dark);
+    background-color: rgb(13, 100, 250);
     border-radius: 5em;
     display: inline-block;
     cursor: pointer;
     color: rgb(247, 10, 10);
-    font-family: cyan;
+    font-family: Lato;
     font-size: 1.1em;
     padding: 20px 30px;
     text-decoration: none;
