@@ -107,4 +107,12 @@ button {
         width: 70%;
         
     }
+    .fact{
+      position: relative;
+      font-size: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+
+    }
 }
