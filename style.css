@@ -1,118 +1,132 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-image: url("./45degreee_fabric.png");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-image: url("./45degreee_fabric.png"); */
 }
-nav{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    flex-wrap: wrap;
+nav {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex-wrap: wrap;
 }
-nav ul{
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
 }
-nav ul li{
-    padding: 30px;
+nav ul li {
+  padding: 30px;
 }
-nav ul li a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    cursor: pointer;
-  
-   
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
 }
-nav ul li a:hover{
-    color: rgb(255, 115, 0);
+nav ul li a:hover {
+  color: rgb(255, 115, 0);
 }
-i{
-    color: black;
+i {
+  color: black;
 }
 main {
-    height: 800px;
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-}  
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
 .main-logo {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 22px;
-  }
-  
-  .main-logo img {
-    width: 100%;
-    height: auto;
-  }
-  form {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-main input{
-    padding: 1.1em;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 22px;
+}
+
+.main-logo img {
+  width: 100%;
+  height: auto;
+}
+form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+main input {
+  padding: 1.1em;
   margin: 2em;
   border-radius: 50em;
   border: 2px solid black;
   font-size: 17px;
-  width: 70%;
-
+  width: 50%;
 }
 .btn-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(243, 243, 243);
+  border-radius: 5em;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(10, 136, 247);
+  font-family: Lato;
+  font-size: 1.1em;
+  padding: 5px 30px;
+  text-decoration: none;
+  margin: 20px;
+}
+button:hover {
+  background-color: rgb(221, 221, 221);
+  /* color: rgb(106, 255, 0); */
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+.fact {
+  font-size: 20px;
+  top: 10px;
+}
+@media (max-width: 650px) {
+  main {
     display: flex;
-    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .main-logo {
+    width: 70%;
+    margin: 1rem;
+  }
+  .fact {
+    position: relative;
+    font-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .btn {
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    font-size: 0.8rem;
+    height: 1.7rem;
   }
-  
-button {
-    background-color: rgb(13, 100, 250);
-    border-radius: 5em;
-    display: inline-block;
-    cursor: pointer;
-    color: rgb(247, 10, 10);
-    font-family: Lato;
-    font-size: 1.1em;
-    padding: 20px 30px;
-    text-decoration: none;
-    margin: 20px;
+  .search-bar {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    width: 70%;
+    height: 2rem;
   }
-  button:hover{
-      background-color: rgb(10, 239, 247);
-      color: cyan;
-  }
-  button:active {
-    position: relative;
-    top: 1px;
-  }
-  .fact{
-      font-size: 20px;
-      top: 10px;
-  }
-@media (max-width: 650px) {
-    .main-logo{
-        width: 70%;
-        
-    }
-    .fact{
-      position: relative;
-      font-size: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      text-align: center;
-
-    }
 }
