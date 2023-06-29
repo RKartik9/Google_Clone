@@ -20,7 +20,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/rkartik9/google-clone.git
+git clone https://github.com/rkartik9/Google_Clone.git
 Open the project directory:
 
 bash
